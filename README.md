@@ -1,0 +1,1 @@
+# qris-statis-to-dinamis
