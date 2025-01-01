@@ -1,6 +1,6 @@
 {
   "name": "API-CREATE-PAYMENT",
-  "version" "1.0.0",
+  "version": "1.0.0",
   "description": "created by Ronzz YT",
   "main": "app.js",
   "scripts": {
