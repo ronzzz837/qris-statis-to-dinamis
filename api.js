@@ -1,3 +1,4 @@
+const _path = process.cwd();
 const express = require("express");
 
 const router = express.Router();
@@ -53,6 +54,10 @@ router.get("/api/qris-statis-to-dinamis", async (req, res) => {
     creator: "Ronzz YT",
     qr_string: qr_string
   });
+});
+
+router.get("/", (req, res) => {
+  res.sendFile(_path + "/home.html")
 });
 
 module.exports = router;
